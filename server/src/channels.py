@@ -1,7 +1,7 @@
 ''' This file contains functions for channels '''
 import init_data
-from src.channel import get_u_id
-from src.error import InputError, AccessError
+from channel import get_u_id
+from error import InputError, AccessError
 
 def is_token_valid(token):
     '''

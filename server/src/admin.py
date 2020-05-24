@@ -1,8 +1,8 @@
 ''' This file contains admin user functions '''
 import init_data
-from src.error import InputError, AccessError
-from src.user_helper import is_token_valid, is_u_id_valid, get_u_id, is_user_deleted
-from src.auth import auth_logout
+from error import InputError, AccessError
+from user_helper import is_token_valid, is_u_id_valid, get_u_id, is_user_deleted
+from auth import auth_logout
 
 def remove_user_from_channels(u_id):
     '''

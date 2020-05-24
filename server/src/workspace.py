@@ -2,8 +2,6 @@
 
 import init_data
 
-from src.auth import auth_register
-
 def reset_workspace():
     '''
     Reset the workspace data to original form

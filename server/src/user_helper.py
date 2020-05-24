@@ -1,6 +1,6 @@
 ''' File contains helper functions related to users '''
 import init_data
-from src.error import AccessError
+from error import AccessError
 
 def get_u_id(token):
     '''

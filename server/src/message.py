@@ -3,10 +3,10 @@ import uuid
 import time
 import threading
 import init_data
-from src.error import InputError, AccessError
-from src.channel_helper import get_channel_id
-from src.channel import get_u_id, is_user_in_channel, is_channel_id_valid, user_channel_permissions
-from src.hangman import hangman_start, hangman_check, check_guess
+from error import InputError, AccessError
+from channel_helper import get_channel_id
+from channel import get_u_id, is_user_in_channel, is_channel_id_valid, user_channel_permissions
+from hangman import hangman_start, hangman_check, check_guess
 RETURN_MESSAGE_DETAIL = {}
 
 def generate_message_id(c_id):
