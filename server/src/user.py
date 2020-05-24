@@ -1,10 +1,10 @@
 ''' This file contains the functions for user '''
 import init_data
-from src.auth import is_token_valid, is_email_invalid
-from src.error import InputError
-from src.user_helper import get_u_id, is_u_id_valid
-from src.auth import is_email_used
-from src.channel_helper import get_channel_id
+from auth import is_token_valid, is_email_invalid
+from error import InputError
+from user_helper import get_u_id, is_u_id_valid
+from auth import is_email_used
+from channel_helper import get_channel_id
 
 def is_handle_str_used(handle_str):
     '''

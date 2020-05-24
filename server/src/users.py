@@ -1,6 +1,6 @@
 ''' This file contains the users all function '''
-from src.error import InputError
-from src.user_helper import is_token_valid, is_user_deleted
+from error import InputError
+from user_helper import is_token_valid, is_user_deleted
 import init_data
 
 def users_all(token):

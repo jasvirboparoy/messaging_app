@@ -1,9 +1,9 @@
 ''' File contains functions for searching messages '''
 import init_data
-from src.error import InputError
-from src.auth import is_token_valid
-from src.channel import is_user_in_channel
-from src.user_helper import get_u_id
+from error import InputError
+from auth import is_token_valid
+from channel import is_user_in_channel
+from user_helper import get_u_id
 
 def search(token, query_str):
     '''

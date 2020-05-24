@@ -3,8 +3,8 @@ import random
 import string
 from urllib.request import urlopen
 from PIL import Image
-from src.user_helper import is_token_valid, get_u_id
-from src.error import AccessError, InputError
+from user_helper import is_token_valid, get_u_id
+from error import AccessError, InputError
 import init_data
 import os
 

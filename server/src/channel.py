@@ -3,10 +3,10 @@ This file contains the functions for getting
 info about a specific channel
 '''
 import init_data
-from src.error import AccessError, InputError
-from src.auth import is_token_valid
-from src.channel_helper import is_channel_id_valid, is_user_in_channel, user_channel_permissions
-from src.user_helper import get_u_id, is_u_id_valid
+from error import AccessError, InputError
+from auth import is_token_valid
+from channel_helper import is_channel_id_valid, is_user_in_channel, user_channel_permissions
+from user_helper import get_u_id, is_u_id_valid
 
 def is_user_owner(u_id, c_id):
     """

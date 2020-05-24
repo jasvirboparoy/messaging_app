@@ -6,9 +6,9 @@ import hashlib
 from time import time
 from re import search
 import jwt
-from src.error import InputError, AccessError
-from src.user_helper import is_token_valid, is_user_deleted
-from src.config import SECRET
+from error import InputError, AccessError
+from user_helper import is_token_valid, is_user_deleted
+from config import SECRET
 import init_data
 import string
 import random
