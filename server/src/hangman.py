@@ -1,10 +1,10 @@
 import init_data
-from src.channel import channel_invite
+from channel import channel_invite
 import random
 import uuid
 import time
 import threading
-from src.error import InputError, AccessError
+from error import InputError, AccessError
 
 def generate_a_word():
     ''' Generates a random guessing word
