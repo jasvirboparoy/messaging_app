@@ -12,7 +12,7 @@ function HomePage(props) {
           <Typography variant="h4">WELCOME</Typography>
           <div style={{ paddingTop: 15 }}>
             <Typography variant="body1">
-              This is SengChat: agile messaging for Software Engineers ❤️
+              Welcome to the CEVSOC homepage!!!
             </Typography>
           </div>
         </>
